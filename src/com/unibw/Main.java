@@ -27,7 +27,13 @@ public class Main {
         */
         SimpleGraphicPanel.drawCircle(SimpleGraphicPanel.getRandomColor(),true, 100,10, 100);
         SimpleGraphicPanel.drawTriangle(Color.GREEN,true,100,0,200,0,150,100);
+        Gleitzahl.floater();
+        int i = mult2(4, 4);
+        System.out.println(i);
+    }
 
+    public static int mult2(int x, int y) {
+        return x*y;
     }
 
     public static double HYPOTH(double k1, double k2) {
